@@ -26,6 +26,7 @@ wrapper.append(div);
 //hearts[1].before(div);
 //hearts[1].after(div);
 div.innerHTML = "<h1>HEllo world!</h1>";
+div.insertAdjacentHTML('beforebegin', '<h2>iooo</h2>')
 //circles[0].remove();
 //hearts[0].remove();
 //wrapper.remove();
