@@ -22,10 +22,10 @@ const div = document.createElement('div');
 div.classList.add("black");
 
 //wrapper.prepend(div);
-//wrapper.append(div);
+wrapper.append(div);
 //hearts[1].before(div);
 //hearts[1].after(div);
-
+div.innerHTML = "<h1>HEllo world!</h1>";
 //circles[0].remove();
 //hearts[0].remove();
 //wrapper.remove();
