@@ -5,7 +5,7 @@ let circles = document.getElementsByClassName("circle");
 let btns = document.getElementsByTagName("button");
 let heart = document.querySelector(".heart");
 let hearts = document.querySelectorAll(".heart");
-
+let wrapper = document.querySelector('.wrapper');
 //box.style.backgroundColor = "blue";
 //box.style.width = '300px';
 
@@ -17,3 +17,18 @@ console.log(hearts);
 hearts.forEach(item=>{
     item.style.backgroundColor = "black";
 });
+
+const div = document.createElement('div');
+div.classList.add("black");
+
+//wrapper.prepend(div);
+//wrapper.append(div);
+//hearts[1].before(div);
+//hearts[1].after(div);
+
+//circles[0].remove();
+//hearts[0].remove();
+//wrapper.remove();
+//hearts[0].replaceWith(circles[0]);
+
+
